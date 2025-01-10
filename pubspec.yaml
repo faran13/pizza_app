@@ -1,0 +1,146 @@
+name: pizza_app
+description: "Flutter Assignment"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #ui
+  cupertino_icons: ^1.0.2
+  lottie:
+  svg_flutter:
+  equatable:
+  intl:
+  flutter_rating_bar:
+
+  #state management
+  flutter_bloc: ^8.1.6
+
+  domain:
+    path: modules/domain
+
+dev_dependencies:
+  build_runner:
+  flutter_gen:
+  flutter_gen_runner:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_gen:
+  integration:
+    flutter_svg:
+
+  colors:
+    inputs:
+      - assets/colors/colors.xml
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/png/
+    - assets/svg/
+    - assets/lottie/
+    - assets/jpg/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: montserratBlack
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+    - family: montserratBlackItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-BlackItalic.ttf
+    - family: montserratBoldItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-BoldItalic.ttf
+    - family: montserratExtraBold
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraBold.ttf
+    - family: montserratExtraBoldItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf
+    - family: montserratBold
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+    - family: montserratExtraLight
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraLight.ttf
+    - family: montserratExtraLightItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf
+    - family: montserratItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf
+    - family: montserratLight
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+    - family: montserratLightItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-LightItalic.ttf
+    - family: montserratMedium
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+    - family: montserratMediumItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-MediumItalic.ttf
+    - family: montserratRegular
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+    - family: montserratSemiBold
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+    - family: montserratSemiBoldItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf
+    - family: montserratThin
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Thin.ttf
+    - family: montserratThinItalic
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-ThinItalic.ttf

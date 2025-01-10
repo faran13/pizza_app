@@ -1,0 +1,29 @@
+name: domain
+description: Domain layer for project sparrow
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  #modules
+  flutter:
+    sdk: flutter
+
+  #code-generation
+  freezed:
+  freezed_annotation:
+
+  #packages
+  intl:
+
+  #state_managment
+  get_it:
+
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
