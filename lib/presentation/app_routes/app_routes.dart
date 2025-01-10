@@ -1,7 +1,6 @@
 import 'package:domain/domain/entity/export.dart';
-import 'package:pizza_app/presentation/screens/pizza_detail_screen/pizza_detail_screen.dart';
-
 import 'package:pizza_app/export.dart';
+import 'package:pizza_app/presentation/screens/pizza_detail_screen/pizza_detail_screen.dart';
 
 class AppRoutes {
   static const initializer = '/';

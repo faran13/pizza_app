@@ -3,7 +3,6 @@ import 'package:domain/domain/export.dart';
 import '../../../export.dart';
 
 part 'home_event.dart';
-
 part 'home_state.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {

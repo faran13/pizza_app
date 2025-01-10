@@ -44,3 +44,6 @@ app.*.map.json
 /modules/domain/lib/domain/entity/home_page/toppings.freezed.dart
 /modules/domain/lib/domain/entity/home_page/pizza_sizes.freezed.dart
 /modules/domain/lib/domain/entity/home_page/pizza.freezed.dart
+/lib/gen/assets.gen.dart
+/lib/gen/colors.gen.dart
+/lib/gen/fonts.gen.dart
